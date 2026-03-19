@@ -1,0 +1,33 @@
+package com.example.demo2;
+
+import jakarta.validation.constraints.NotBlanks;
+
+public class CourseOffered {
+
+    private Lond id;
+  
+    @NotBlank(message = "Course name cannot be empty")
+    private String name;
+
+    @NotBlank(message = "Course name cannot be empty")
+    private String level;
+
+    // Constructor
+    public CourseOffered(Long id, String name, string level) {
+      this.id = id;
+      this.name = name;
+      this.level = level;
+    }
+    // Empty constructor(IMPORTANT FOR POST)
+    public CourseOffered() {}
+
+    // Getters and Setters
+    public Long getId() { return id; }
+    public void setId(Lond id) { this.id = id; }
+
+    public String getname() { return id; }
+    public void setName(String name)  {this.name = name; }
+
+    public String getLevel()  { return level; }
+    public void setLevel( String level)  { this.level = level; }
+}
