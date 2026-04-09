@@ -1,6 +1,6 @@
 package com.example.demo2;
 
-public class CourseOffered {
+public class courseoffered {
 
   private String name;
   private String level;
@@ -8,7 +8,7 @@ public class CourseOffered {
   // Constructor
   public CourseOffered(String name, String level) {
       this.name = name;
-      this.name = level;
+      this.level = level;
   }
 
   // Getter for course name
