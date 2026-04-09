@@ -6,7 +6,7 @@ public class courseoffered {
   private String level;
 
   // Constructor
-  public CourseOffered(String name, String level) {
+  public void CourseOffered(String name, String level) {
       this.name = name;
       this.level = level;
   }
