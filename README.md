@@ -1,3 +1,10 @@
+## 📍 Quick Navigation
+* [Project Scope](#project-scope)
+* [Setup Instructions](#setup-instructions)
+* [Execution](#execution)
+* [API Reference](#-api-reference)
+
+
 # 🚀 CSC313 - Spring Boot Assignment 1
 This is an assignment for Implementing Java Basics, Classes, Methods, Objects, ArrayLists, Exceptions, and an Introduction to CRUD Operations and Validation
 
@@ -51,4 +58,15 @@ Open http://localhost:8080/cs-courses in your browser.
 
 ---
 
+## 📡 API Reference
+
+The following endpoint is available once the server is running:
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/cs-courses` | Returns a JSON object containing the full list of CS courses. |
+
+> In the context of **Web development** (using frameworks like Spring Boot), a Java method in a controller might return a Java object, which the framework then serializes into a JSON string for the HTTP response.
+
+# Members & Contributors
 
