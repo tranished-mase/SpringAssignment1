@@ -69,4 +69,11 @@ The following endpoint is available once the server is running:
 > In the context of **Web development** (using frameworks like Spring Boot), a Java method in a controller might return a Java object, which the framework then serializes into a JSON string for the HTTP response.
 
 # Members & Contributors
+* Cebisile Mtyu (Leader)
+* Nkosi, Siyabonga Brains
+* Anda Gxoyiya
+* Alizwa Mbane
+* Lonwabo Mbhele
+* Lubabalo Ndyawe
+* Wanga Talaba
 
