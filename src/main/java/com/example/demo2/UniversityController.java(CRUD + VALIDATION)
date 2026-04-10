@@ -26,7 +26,7 @@ public class UniversityController {
         return courses;
     }
 
-    // READ (BY ID)
+    // READ (Id)
     @GetMapping("/{id}")
     public CourseOffered getCourseById(@PathVariable Long id) {
         return courses.stream()
