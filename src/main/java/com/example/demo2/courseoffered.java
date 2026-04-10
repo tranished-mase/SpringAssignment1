@@ -15,7 +15,7 @@ public class courseoffered {
     private String level;
 
     // Constructor
-    public CourseOffered(String code, String name, String level) {
+    public courseoffered(String code, String name, String level) {
         this.code = code;
         this.name = name;
         this.level = level;
