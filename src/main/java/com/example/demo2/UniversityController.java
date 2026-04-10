@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 public class UniversityController {
 
-    // Using a Java 25 Record for a lightweight data structure
+    // Using a Java 25 Record for a lightweight data structures
     public record Course(String code, String name) {}
 
     @GetMapping("/cs-courses")
